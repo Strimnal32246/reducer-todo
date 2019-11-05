@@ -33,6 +33,7 @@ class ToDoForm extends React.Component {
           placeholder="add Todo item"
           onChange={this.updateStateMessage}
         />
+        <div className="checkbox" />
         <button type="submit">Add Todo</button>
         <button
           onClick={() => {
